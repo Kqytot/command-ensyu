@@ -3,9 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double height = scanner.nextDouble();
-        double weight = scanner.nextDouble();
-        double bmi = weight / (height * height);
-        System.out.println(bmi);
+        double height1 = scanner.nextDouble();
+        double weight1 = scanner.nextDouble();
+        double height2 = scanner.nextDouble();
+        double weight2 = scanner.nextDouble();
+        double bmi1 = weight1 / (height1 * height1);
+        double bmi2 = weight2 / (height2 * height2);
+        System.out.println(bmi1);
+        System.out.println(bmi2);
     }
 }
